@@ -1,9 +1,11 @@
+import Header from "../../components/header/Header";
+
 const HomeScreen = () => {
     return (
-        <div>
-
+        <div className="page-container">
+            <Header />
         </div>
     )
 }
 
-export default HomeScreen;
+export default HomeScreen
