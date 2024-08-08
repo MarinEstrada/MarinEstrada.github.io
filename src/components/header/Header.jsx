@@ -1,4 +1,5 @@
-import { AvatarSVG } from '../../assets/image'; // the js file defining image names and location
+import { Link } from 'react-router-dom';
+import { AvatarSVG, Email, Linkedin } from '../../assets/image'; // the js file defining image names and location
 import { FaEnvelope, FaLink, FaLocationDot, FaPhone } from 'react-icons/fa6';
 
 const Header = () => {
@@ -56,6 +57,20 @@ const Header = () => {
                                     <span className='info-item-text'>
                                         Github: <span className='text'>https://github.com/MarinEstrada/</span>
                                     </span>
+                                </li>
+                            </ul>
+                            <ul className='contact-social-list flex items-center'>
+                                <li className='social-item'>
+                                    <Link to="/">
+                                        <img src={Linkedin} />
+                                        <span className='tooltip text'>LinkedIn</span>
+                                    </Link>
+                                </li>
+                                <li className='social-item'>
+                                    <Link to="/">
+                                        <img src={Email} />
+                                        <span className='tooltip text'>Email</span>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
