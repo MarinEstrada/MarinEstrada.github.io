@@ -80,6 +80,87 @@
     }
 
     .header-text{
+        margin-top: 20px;
+    }
 
+    .contact-info-list{
+        row-gap: 10px;
+
+        @media(max-width: 576px){
+            row-gap: 4px;
+        }
+
+        .info-item{
+            grid-template-columns: 30px auto;
+            column-gap: 6px;
+
+            &-icon{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2px;
+                width: 24px;
+                height: 24px;
+                background-color: $raisin-black;
+                border-radius: 100%;
+            }
+            &-text{
+                // word-break: break-all;
+            }
+        }
+    }
+
+    .contact-social-list{
+        column-gap: 16px;
+        margin-top: 20px;
+
+        .social-item{
+            a{
+                position: relative;
+                &:hover{
+                    .tooltip{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            img{
+                transition: $transition-default;
+                &:hover{
+                    scale: 1.15;
+                }
+            }
+
+            .tooltip{
+                position: absolute;
+                top: calc(100% + 8px);
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 13px;
+                background-color: $white;
+                color: $mauve;
+                padding: 0 6px;
+                border-radius: 3px;
+                font-weight: 600;
+                box-shadow: $shadow-default;
+                opacity: 0;
+                visibility: hidden;
+                transition: $transition-default;
+
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: calc(100% - 1px);
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0px;
+                    height: 0px;
+                    border: 5px solid;
+                    border-color: transparent transparent $white transparent;
+                    // border-color: blue green $white purple;
+                    pointer-events: none;
+                }
+            }
+        }
     }
 }
