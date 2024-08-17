@@ -1,6 +1,7 @@
 import DATA from "../../constant/mockData";
 import Title from "../common/Title";
 import PropTypes from "prop-types";
+import { FaLink } from "react-icons/fa";
 
 const Experience = () => {
     return(
@@ -26,7 +27,35 @@ const ExperienceItem = ({item}) => {
         <div className="experience-item" key={item.id}>
             <div className="exp-time flex items-center">
                 <span className="start-time">{item.startDate}</span>
+                <span>-</span>
+                <div className="end-time">{item.endDate || "Present"}</div>
             </div>
+            <div className="exp-position flex items-center flex-wrap">
+                <p className="exp-position-text">{item.position}</p>
+                <div className="diamond-shapes-group">
+                    {
+                        item.diamondColors?.map((color, index) => (
+                            <img key={index} src={color} alt="" />
+                        ))
+                    }
+                </div>
+            </div>
+            <div className="exp-company flex items-center flex-wrap" >
+                <div className="company-logo">
+                    <img src={item.company.logo} alt="" />
+                </div>
+                <p className="company-name" >{item.company.name}</p>
+                <p className="company-info text" >{item.company.info}</p>
+            </div>
+            <p className="exp-description text" >{item.description}</p>
+            <p className="exp-links">
+                {item.links.map((link) => (
+                    <a key={link.label} href={link.url} className="text-mauve" >
+                        <FaLink />
+                        <span>{link.label}</span>
+                    </a>
+                ))}
+            </p>
         </div>
     );
 };
