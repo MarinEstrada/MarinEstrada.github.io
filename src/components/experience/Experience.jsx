@@ -1,7 +1,8 @@
 import DATA from "../../constant/mockData";
 import Title from "../common/Title";
 import PropTypes from "prop-types";
-import { FaLink } from "react-icons/fa";
+import { FaLink } from "react-icons/fa6";
+import { DiamondLgBlue, DiamondLgGreen, DiamondLgOrange, DiamondLgPink, DiamondLgYellow } from "../../assets/image";
 
 const Experience = () => {
     return(
@@ -23,6 +24,15 @@ const Experience = () => {
 export default Experience;
 
 const ExperienceItem = ({item}) => {
+
+    const showDimondImage = (color) => {
+        if (color === "Blue") {return DiamondLgBlue;}
+        else if (color === "Green") {return DiamondLgGreen;}
+        else if (color === "Orange") {return DiamondLgOrange;}
+        else if (color === "Pink") {return DiamondLgPink;}
+        else if (color === "Yellow") {return DiamondLgYellow;}
+    };
+
     return(
         <div className="experience-item" key={item.id}>
             <div className="exp-time flex items-center">
@@ -35,7 +45,7 @@ const ExperienceItem = ({item}) => {
                 <div className="diamond-shapes-group">
                     {
                         item.diamondColors?.map((color, index) => (
-                            <img key={index} src={color} alt="" />
+                            <img key={index} src={showDimondImage(color)} alt="" />
                         ))
                     }
                 </div>
