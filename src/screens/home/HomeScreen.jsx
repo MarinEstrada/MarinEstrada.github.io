@@ -2,6 +2,7 @@ import Cursor from "../../components/cursor/Cursor";
 import Education from "../../components/education/Education";
 import Header from "../../components/header/Header";
 import Experience from "../../components/experience/Experience"
+import Skill from "../../components/skill/Skill";
 
 const HomeScreen = () => {
     return (
@@ -9,6 +10,7 @@ const HomeScreen = () => {
             <Header />
             <Experience />
             <Education />
+            <Skill />
             <Cursor />
         </div>
     )
