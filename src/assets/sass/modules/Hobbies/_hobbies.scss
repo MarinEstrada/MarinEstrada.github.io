@@ -1,6 +1,16 @@
 .hobbies-sc{
+    margin-bottom: 40px;
+
     .hobbies-content{
-        padding: 20px;
+        padding-bottom: 20px;
+        position: relative;
+
+        // fixing last dot
+        & > .dots-shape{
+            position: absolute;
+            left: -10px;
+            bottom: 0;
+        }
     }
 
     .hobbies-list{

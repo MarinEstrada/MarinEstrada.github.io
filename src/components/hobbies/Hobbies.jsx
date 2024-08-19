@@ -13,6 +13,7 @@ const Hobbies = () => {
                             <HobbiesItem key={item.id} item={item} />
                         ))}
                     </div>
+                    <div className="dots-shape" ></div>
                 </div>
             </div>
 
