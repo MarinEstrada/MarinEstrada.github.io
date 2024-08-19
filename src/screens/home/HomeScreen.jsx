@@ -5,6 +5,7 @@ import Experience from "../../components/experience/Experience"
 import Skill from "../../components/skill/Skill";
 import CertificateAward from "../../components/certificateAward/CertificateAward";
 import Hobbies from "../../components/hobbies/Hobbies";
+import BackgroundEffect from "../../components/background_effect/BackgroundEffect";
 
 const HomeScreen = () => {
     return (
@@ -16,6 +17,7 @@ const HomeScreen = () => {
             <CertificateAward />
             <Hobbies />
             <Cursor />
+            <BackgroundEffect />
         </div>
     )
 }
