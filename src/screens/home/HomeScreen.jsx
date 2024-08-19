@@ -3,6 +3,7 @@ import Education from "../../components/education/Education";
 import Header from "../../components/header/Header";
 import Experience from "../../components/experience/Experience"
 import Skill from "../../components/skill/Skill";
+import CertificateAward from "../../components/certificateAward/CertificateAward";
 
 const HomeScreen = () => {
     return (
@@ -11,6 +12,7 @@ const HomeScreen = () => {
             <Experience />
             <Education />
             <Skill />
+            <CertificateAward />
             <Cursor />
         </div>
     )
