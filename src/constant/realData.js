@@ -12,6 +12,7 @@ import {
   DiamondLgYellow,
   Gaming,
   Google,
+  Linkedin,
   Reading,
   SkillCss,
   SkillFigma,
@@ -36,7 +37,14 @@ const DATA = {
 
   ],
   certificatesAndAwards: [
-
+    {
+      id: "cert_award_1",
+      icon: Linkedin,
+      provider: "LinkedIn",
+      course: "DevOps Institute Cert Prep: SRE Foundation (SRE)",
+      startDate: "July 2024",
+      endDate: "July 2024",
+    },
   ],
   hobbiesAndInterests: [
 
