@@ -1,4 +1,5 @@
-import DATA from '../../constant/mockData';
+// import DATA from '../../constant/mockData';
+import DATA from '../../constant/realData';
 import Title from '../common/Title';
 import PropTypes from 'prop-types';
 
@@ -33,14 +34,30 @@ const EducationItem = ({item}) => {
                 <img src={item.icon} className='edu-icon' alt={item.course} />
                 <h3 className='edu-course'>{item.course}</h3>
             </div>
-            <p className='edu-info text'>
-                {item.institution}, {item.startDate} - {item.endDate ||
-                "Present"}{" "}
-                ({item.degree && `${item.degree}`})
-            </p>
+            <p className='edu-info text'>{item.institution}</p>
+            <DateInfo item={item} />
         </div>
     );
 };
+
+const DateInfo = ({item}) => {
+    if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
+        return(
+            <p className="edu-info text" >
+                {item.startDate}{" "}
+                ({item.degree && `${item.degree}`})
+            </p>
+        );
+    }
+
+    return(
+        <p className="edu-info text">
+            {item.startDate} - {item.endDate ||
+            "Present"}{" "}
+            ({item.degree && `${item.degree}`})
+        </p>
+    );
+}
 
 EducationItem.PropTypes = {
     item: PropTypes.shape({
