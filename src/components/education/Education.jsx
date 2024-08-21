@@ -35,12 +35,12 @@ const EducationItem = ({item}) => {
                 <h3 className='edu-course'>{item.course}</h3>
             </div>
             <p className='edu-info text'>{item.institution}</p>
-            <DateInfo item={item} />
+            <EduDateInfo item={item} />
         </div>
     );
 };
 
-const DateInfo = ({item}) => {
+const EduDateInfo = ({item}) => {
     if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
         return(
             <p className="edu-info text" >
@@ -57,7 +57,7 @@ const DateInfo = ({item}) => {
             ({item.degree && `${item.degree}`})
         </p>
     );
-}
+};
 
 EducationItem.PropTypes = {
     item: PropTypes.shape({
