@@ -33,14 +33,29 @@ const CertificateAwardItem = ({item}) => {
                     <p className="cert-provider">{item.provider}</p>
                     <h3 className="cert-course">{item.course}</h3>
                 </div>
-                <div className="cert-info-r flex
-                items-center justify-center" >
-                    {item.startDate} - {item.endDate || "Present"}
-                </div>
+                <CertDateInfo item={item} />
             </div>
         </div>
     )
 }
+
+const CertDateInfo = ({item}) => {
+    if(item.startDate === item.endDate){
+        return(
+            <div className="cert-info-r flex
+            items-center justify-center" >
+                {item.startDate}
+            </div>
+        );
+    }
+    //else
+    return(
+        <div className="cert-info-r flex
+        items-center justify-center" >
+            {item.startDate} - {item.endDate || "Present"}
+        </div>
+    )
+};
 
 CertificateAwardItem.propTypes = {
     item: PropTypes.shape({
