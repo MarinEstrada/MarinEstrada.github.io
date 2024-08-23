@@ -1,4 +1,5 @@
 import {
+  Barbell_1,
   Blogging,
   CompanyLogo1,
   CompanyLogo2,
@@ -11,9 +12,18 @@ import {
   DiamondLgPink,
   DiamondLgYellow,
   Gaming,
+  Github_circleBlue,
+  Github_circle1,
+  Github_block,
   Google,
+  Haskell_icon,
+  Letter_c,
   Linkedin,
+  Linux,
+  Python,
+  React_icon,
   Reading,
+  Scala_icon,
   SkillCss,
   SkillFigma,
   SkillHtml5,
@@ -22,8 +32,12 @@ import {
   SkillTrello,
   SkillWireframe,
   SkillXd,
+  SQL_icon,
+  Terminal,
   Travelling,
+  Treadmill,
   Udemy,
+  JS_icon,
 } from "../assets/image";
 
 const DATA = {
@@ -159,7 +173,78 @@ const DATA = {
     },
   ],
   skills: [
-
+    {
+      id:"skill_1",
+      icon: Github_circleBlue,
+      name: "Git & GitHub",
+      description: "Version Control System",
+    },
+    {
+      id: "skill_2",
+      icon: Terminal,
+      name: "Unix Shell",
+      description: "ssh, scp, vi/vim/nano, grep, sed",
+    },
+    {
+      id: "skill_3",
+      icon: Linux,
+      name: "Linux",
+      description: "Ubuntu & Debian Distributions",
+    },
+    {
+      id: "skill_4",
+      icon: React_icon,
+      name: "React",
+      description: "React with Node Project Manager"
+    },
+    {
+      id: "skill_5",
+      icon: SQL_icon,
+      name: "SQL",
+      description: "Relational Databases: MySQL, PostgreSQL"
+    },
+    {
+      id: "skill_l1",
+      icon: Python,
+      name: "Python",
+      description: "3.8, 3.9, 3.10, 3.11",
+    },
+    {
+      id: "skill_l2",
+      icon: Letter_c,
+      name: "C",
+      description: "C99, C11, C17",
+    },
+    {
+      id: "skill_l3",
+      icon: JS_icon,
+      name: "JavaScript",
+      description: "ES6"
+    },
+    {
+      id: "skill_l4",
+      icon: Haskell_icon,
+      name: "Haskell",
+      description: "GHC 8.8.4",
+    },
+    {
+      id: "skill_l5",
+      icon: Scala_icon,
+      name: "Scala",
+      description: "3.3.0"
+    },
+    {
+      id: "skill_x0",
+      icon: SkillHtml5,
+      name: "HTML5",
+      description: "Hypertext Markup",
+    },
+    {
+      id: "skill_x1",
+      icon: SkillCss,
+      name: "CSS",
+      description: "Attractive Design & Frameworks",
+    },
   ],
   certificatesAndAwards: [
     {
@@ -172,7 +257,26 @@ const DATA = {
     },
   ],
   hobbiesAndInterests: [
-
+    {
+      id: "hob_1",
+      icon: Treadmill,
+      name: "Exercising",
+    },
+    {
+      id: "hob_2",
+      icon: Gaming,
+      name: "Gaming",
+    },
+    {
+      id: "hob_3",
+      icon: Reading,
+      name: "Reading",
+    },
+    {
+      id: "hob_4",
+      icon: Travelling,
+      name: "Travelling",
+    },
   ],
 };
 

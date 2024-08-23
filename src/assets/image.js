@@ -35,6 +35,20 @@ import Reading from "./images/reading.png";
 import Travelling from "./images/travelling.png";
 import Blogging from "./images/blogging.png";
 import Gaming from "./images/gaming.png";
+import Barbell_1 from "./images/barbell.png";
+import Treadmill from "./images/treadmill.png";
+import Terminal from "./images/terminal.png";
+import Linux from "./images/linux.png";
+import Github_block from "./images/github_block.png";
+import Github_circle1 from "./images/github_circle1.png";
+import Github_circleBlue from "./images/github_circleBlue.png";
+import Python from "./images/python.png";
+import React_icon from "./images/react.png";
+import SQL_icon from "./images/sql-server.png";
+import Letter_c from "./images/letter-c.png";
+import JS_icon from "./images/js.png";
+import Haskell_icon from "./images/haskell.png";
+import Scala_icon from "./images/scala.png";
 
 export {
   AvatarPNG,
@@ -74,4 +88,18 @@ export {
   Travelling,
   Blogging,
   Gaming,
+  Barbell_1,
+  Treadmill,
+  Terminal,
+  Linux,
+  Github_block,
+  Github_circle1,
+  Github_circleBlue,
+  Python,
+  React_icon,
+  SQL_icon,
+  Letter_c,
+  JS_icon,
+  Haskell_icon,
+  Scala_icon,
 };
