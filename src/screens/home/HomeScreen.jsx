@@ -12,7 +12,7 @@ const HomeScreen = () => {
     return (
         <div className="page-container">
             <Header />
-            {/* <Experience /> */}
+            <Experience />
             {/* <Education /> */}
             <Skill />
             <CertificateAward />

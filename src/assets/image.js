@@ -49,6 +49,7 @@ import Letter_c from "./images/letter-c.png";
 import JS_icon from "./images/js.png";
 import Haskell_icon from "./images/haskell.png";
 import Scala_icon from "./images/scala.png";
+import Question_mark from "./images/question-mark.png";
 
 export {
   AvatarPNG,
@@ -102,4 +103,5 @@ export {
   JS_icon,
   Haskell_icon,
   Scala_icon,
+  Question_mark,
 };

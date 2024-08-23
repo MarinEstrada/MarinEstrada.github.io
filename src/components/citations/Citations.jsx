@@ -27,6 +27,8 @@ const Citations = () => {
         title="software icons">Haskell icons created by Freepik - Flaticon</a>
         <a href="https://www.flaticon.com/free-icons/scala"
         title="scala icons">Scala icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/question-mark"
+        title="question mark icons">Question mark icons created by Freepik - Flaticon</a>
     </div>
   );
 };
