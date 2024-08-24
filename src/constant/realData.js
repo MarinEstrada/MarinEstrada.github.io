@@ -77,7 +77,7 @@ const DATA = {
     },
     {
       id: "proj_3",
-      starDate: "Nov 2023",
+      startDate: "Nov 2023",
       endDate: "Nov 2023",
       icon: Question_mark,
       title: "Rap Music Analysis",
