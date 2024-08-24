@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import Title from '../common/Title';
-import DATA from '../../constant/mockData';
+// import DATA from '../../constant/mockData';
+import DATA from '../../constant/realData';
 
 const Hobbies = () => {
     return (

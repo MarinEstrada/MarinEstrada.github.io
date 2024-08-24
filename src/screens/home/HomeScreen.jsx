@@ -6,16 +6,21 @@ import Skill from "../../components/skill/Skill";
 import CertificateAward from "../../components/certificateAward/CertificateAward";
 import Hobbies from "../../components/hobbies/Hobbies";
 import BackgroundEffect from "../../components/background_effect/BackgroundEffect";
+import Citations from "../../components/citations/Citations";
+import Projects from "../../components/projects/Projects";
 
 const HomeScreen = () => {
     return (
         <div className="page-container">
             <Header />
-            <Experience />
-            <Education />
+            <Projects />
+            {/* <Experience /> */}
+            {/* <Education /> */}
             <Skill />
             <CertificateAward />
+            <Education />
             <Hobbies />
+            <Citations />
             <Cursor />
             <BackgroundEffect />
         </div>
