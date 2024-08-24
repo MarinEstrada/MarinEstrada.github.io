@@ -50,7 +50,7 @@ const DATA = {
       icon: Question_mark,
       title: "Personal CV Website",
       subTitle: "React, JavaScript, SCSS",
-      url: "???",
+      url: "",
       diamondColors: ["Yellow", "Blue", "Green"],
       description: [
         "Developed a personal CV website using React, JavaScript, and CSS.",
@@ -65,7 +65,7 @@ const DATA = {
       icon: Question_mark,
       title: "Plant Moniroring System",
       subTitle: "An Embedded System Project",
-      url: "???",
+      url: "",
       diamondColors: ["Green", "Orange", "Pink"],
       description: [
         "Developed an embedded system that monitors and changes environment for ideal plant health",
@@ -82,7 +82,7 @@ const DATA = {
       icon: Question_mark,
       title: "Rap Music Analysis",
       subTitle: "Examining claims that rap music has become more simplistic",
-      url: "???",
+      url: "https://github.com/MarinEstrada/rap_music_analysis/",
       diamondColors: ["Pink", "Yellow", "Blue"],
       description: [
         "Analyzed the complexity of rap music lyrics over time",
@@ -99,7 +99,7 @@ const DATA = {
       icon: Question_mark,
       title: "Sentiment Analysis Project",
       subTitle: "Exploring sentiment analysis through Python",
-      url: "???",
+      url: "https://www.kaggle.com/marinestrada/python-sentiment-analysis-project/",
       diamondColors: ["Orange", "Green", "Yellow"],
       description: [
         "Explored use of NLTK's VADER as well as Hugging face's transformers library for sentiment analysis",
@@ -112,7 +112,7 @@ const DATA = {
       icon: Question_mark,
       title: "Divide and Conquer",
       subTitle: "A client-server network for two players",
-      url: "???",
+      url: "https://github.com/MarinEstrada/cmpt371_Divide_and_Conquer/",
       diamondColors: ["Blue", "Pink", "Orange"],
       description: [
         "Implemented a two-player game with Java and Java Swing using TCP protocol",
@@ -126,7 +126,7 @@ const DATA = {
       icon: Question_mark,
       title: "My Reads",
       subTitle: "A book tracking app",
-      url: "???",
+      url: "https://github.com/MarinEstrada/reactnd-project-myreads/",
       diamondColors: ["Yellow", "Green", "Blue"],
       description: [
         "Developed a book tracking app using React and React Router",
