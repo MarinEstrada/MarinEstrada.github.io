@@ -7,6 +7,10 @@ on:
       - github_pages
 
 jobs:
+
+  permissions:
+    id-token: write
+    pages: write
   # Single deploy job since we're just deploying
   deploy:
     environment:
