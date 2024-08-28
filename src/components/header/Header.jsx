@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { AvatarSVG, Email, Linkedin } from '../../assets/image'; // the js file defining image names and location
+import { AvatarSVG, Email, Linkedin, Question_mark } from '../../assets/image'; // the js file defining image names and location
 import { FaEnvelope, FaLink, FaLocationDot, FaPhone } from 'react-icons/fa6';
 
 const Header = () => {
@@ -10,10 +10,12 @@ const Header = () => {
                     <div className="header-intro">
                         <div className="flex items-end header-intro-wrapper">
                             <img
-                                src={AvatarSVG}
+                                // src={AvatarSVG}
+                                src={Question_mark}
                                 alt="avatar"
                                 className="avatar" />
                             <h1 className="header-name text-white">
+                                {'{'}WORK IN PROGRESS{'}'} <br />
                                 Adrian Marin Estrada, <br />
                                 CS student at Simon Fraser University
                             </h1>
