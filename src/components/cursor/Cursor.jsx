@@ -21,16 +21,22 @@ const Cursor = () => {
         }
     }, []);
 
-    return (
-        <>
-            <div className="cursor small" style={{
-                transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
-            }}></div>
-            <div className="cursor big" style={{
-                transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
-            }}></div>
-        </>
-    );
+    return(
+        // <div className="cursor" style={{cursor: 'default'}} >
+        <div>
+
+        </div>
+    )
+    // return (
+    //     <>
+    //         <div className="cursor small" style={{
+    //             transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
+    //         }}></div>
+    //         <div className="cursor big" style={{
+    //             transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
+    //         }}></div>
+    //     </>
+    // );
 };
 
 export default Cursor
