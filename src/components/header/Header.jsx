@@ -15,7 +15,7 @@ const Header = () => {
                                 alt="avatar"
                                 className="avatar" />
                             <h1 className="header-name text-white">
-                                WORK IN PROGRESS <br />
+                                {'{'}WORK IN PROGRESS{'}'} <br />
                                 Adrian Marin Estrada, <br />
                                 CS student at Simon Fraser University
                             </h1>
