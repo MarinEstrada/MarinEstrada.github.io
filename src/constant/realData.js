@@ -53,7 +53,7 @@ const DATA = {
       url: "",
       diamondColors: ["Yellow", "Blue", "Green"],
       description: [
-        "Developed a personal CV website using React, JavaScript, and CSS.",
+        "Developed a personal CV website using React, JavaScript, and SCSS.",
         "Used Vite to maintain server while I developed it locally",
         "Deployed the website using Github Pages",
       ],
