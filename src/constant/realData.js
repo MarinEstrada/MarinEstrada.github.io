@@ -55,7 +55,7 @@ const DATA = {
       description: [
         "Developed a personal CV website using React, JavaScript, and CSS.",
         "Used Vite to maintain server while I developed it locally",
-        "Deployed the website using AWS",
+        "Deployed the website using Github Pages",
       ],
     },
     {
