@@ -42,6 +42,22 @@ import {
 } from "../assets/image";
 
 const DATA = {
+  professionalExperiences: [
+    {
+      id: "prof_exp_1",
+      startDate: "May 2024",
+      endDate: "",
+      position: "A.I. Prompt Engineer & Training Specialist",
+      diamondColors: ["Yellow", "Green", "Blue"],
+      company: {
+        logo: Question_mark,
+        name: "DataAnnotation",
+        info: "Data Annotation Company for training AI models",
+      },
+      description: "Test A.I. models by creating coding prompts and testing outputs and label outputs to reinforce desired outputs with a focus on accuracy and safety. I specifically tested coding prompts, testing the models ability to create and work with NumPy and Pandas dataframes. I also trained models using multiple programming languages including Python, C, and JavaScript.",
+      links: [],
+    },
+  ],
   projects: [
     {
       id: "proj_1",
@@ -134,9 +150,6 @@ const DATA = {
         "Integrated with Node-API to access book dataset and use React's efficient state management",
       ],
     },
-  ],
-  professionalExperiences: [
-
   ],
   educationalExperiences: [
     {

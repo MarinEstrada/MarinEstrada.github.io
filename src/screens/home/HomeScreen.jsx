@@ -13,8 +13,8 @@ const HomeScreen = () => {
     return (
         <div className="page-container">
             <Header />
+            <Experience />
             <Projects />
-            {/* <Experience /> */}
             {/* <Education /> */}
             <Skill />
             <CertificateAward />
