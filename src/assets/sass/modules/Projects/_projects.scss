@@ -1,11 +1,11 @@
 .projects-sc{
-    .projects-content{
-        &.dotted-border-left{
-            &::after{
-                top: 10px;
-            }
-        }
-    }
+    // .projects-content{
+    //     &.dotted-border-left{
+    //         &::after{
+    //             top: 10px;
+    //         }
+    //     }
+    // }
 
     .projects-list{
         row-gap: 20px;
@@ -30,6 +30,13 @@
         font-size: 15px;
         margin-bottom: 4px;
         column-gap: 4px;
+    }
+
+    .project-logo{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: 2px solid $white;
     }
 
 }
