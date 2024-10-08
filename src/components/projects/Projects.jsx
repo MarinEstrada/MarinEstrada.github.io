@@ -3,6 +3,7 @@ import Title from "../common/Title";
 import PropTypes from "prop-types";
 import { DiamondLgBlue, DiamondLgGreen, DiamondLgOrange, DiamondLgPink, DiamondLgYellow } from "../../assets/image";
 import { Link } from "react-router-dom";
+import {FaLink } from "react-icons/fa6";
 
 const Projects = () => {
     return (
@@ -50,8 +51,16 @@ const ProjectItem = ({ item }) => {
                     <img src={item.icon} alt="" />
                 </div>
                 <p className="project-subtitle" >{item.subTitle}</p>
-                <Link to={item.url} className="project-link flex-wrap" >{item.url}</Link>
+                {/* <div className="link-details">
+                    <FaLink size={15} />
+                    <Link to={item.url} className="project-link flex-wrap" >{item.url}</Link>
+                </div> */}
             </div>
+            {/* <div className="link-details">
+                <FaLink size={15} />
+                <Link to={item.url} className="project-link flex-wrap" >{item.url}</Link>
+            </div> */}
+            <ProjectLinkInfo item={item} />
             <ul className="project-description" >
                 {item.description?.map((desc, index) => (
                     <li key={index} >{desc}</li>
@@ -61,6 +70,17 @@ const ProjectItem = ({ item }) => {
         </div>
     );
 };
+
+const ProjectLinkInfo = ({item}) => {
+    if (item.url) {
+        return(
+            <div className="link-details">
+                <FaLink size={15} />
+                <Link to={item.url} className="project-link flex-wrap" >{item.url}</Link>
+            </div>
+        );
+    }
+}
 
 const ProjectDateInfo = ({item}) => {
     if(item.startDate === item.endDate){

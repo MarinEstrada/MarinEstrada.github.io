@@ -56,6 +56,7 @@
 
     .exp-description{
         margin: 12px 0 4px 0;
+        // margin: 0px 0 0px 0;
     }
 
     .exp-links{
@@ -65,7 +66,8 @@
             display: flex;
             align-items: center;
             column-gap: 8px;
-            color: $mauve;
+            // color: $mauve;
+            color: #ebb134;
         }
     }
 }
