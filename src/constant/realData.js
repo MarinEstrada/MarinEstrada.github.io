@@ -109,7 +109,7 @@ const DATA = {
         "Analyzed the complexity of rap music lyrics over time",
         `Utilised "spotipy" library to access Spotify's API, extracting song Data based on artist and track names`,
         "Processed Data for sentiment Analysis using NLTK's VADER and various machine learning models",
-        "Uncovred trends in rap music's wpm, lexical density, unique wpm, and lexical diversity over time",
+        "Uncovered trends in rap music's wpm, lexical density, unique wpm, and lexical diversity over time",
         "Applied statistical analysis to assess the statistical significance of our results.",
       ],
     },
