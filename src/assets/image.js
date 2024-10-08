@@ -50,6 +50,7 @@ import JS_icon from "./images/js.png";
 import Haskell_icon from "./images/haskell.png";
 import Scala_icon from "./images/scala.png";
 import Question_mark from "./images/question-mark.png";
+import HeadShot from "./images/headshot.jpg";
 
 export {
   AvatarPNG,
