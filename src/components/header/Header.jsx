@@ -36,7 +36,9 @@ const Header = () => {
                         <ul className='contact-info-list grid text-white'>
                             <li className='grid items-start info-item'>
                                 <span className='info-item-icon'>
-                                    <FaEnvelope size={13} />
+                                    <a href="mailto:ama269@sfu.ca">
+                                        <FaEnvelope size={13} />
+                                    </a>
                                 </span>
                                 <span className='info-item-text'>
                                     Email: <span className='text'>ama269@sfu.ca</span>
@@ -60,25 +62,30 @@ const Header = () => {
                             </li>
                             <li className='grid items-start info-item'>
                                 <span className='info-item-icon'>
-                                    <FaLink size={15} />
+                                    <Link to="https://github.com/MarinEstrada/">
+                                        <FaLink size={15} />
+                                    </Link>
                                 </span>
                                 <span className='info-item-text'>
-                                    Github: <span className='text'>https://github.com/MarinEstrada/</span>
+                                    {/* Github: <span className='text'>https://github.com/MarinEstrada/</span> */}
+                                    <Link to="https://github.com/MarinEstrada/" className='text'>
+                                        https://github.com/MarinEstrada/
+                                    </Link>
                                 </span>
                             </li>
                         </ul>
                         <ul className='contact-social-list flex items-center'>
                             <li className='social-item'>
-                                <Link to="/">
+                                <Link to="https://www.linkedin.com/in/adrian-marin-estrada/">
                                     <img src={Linkedin} />
-                                    <span className='tooltip text'>LinkedIn</span>
+                                    {/* <span className='tooltip text'>LinkedIn</span> */}
                                 </Link>
                             </li>
                             <li className='social-item'>
-                                <Link to="/">
+                                <a href="mailto:ama269@sfu.ca">
                                     <img src={Email} />
-                                    <span className='tooltip text'>Email</span>
-                                </Link>
+                                    {/* <span className='tooltip text'>Email</span> */}
+                                </a>
                             </li>
                         </ul>
                     </div>
