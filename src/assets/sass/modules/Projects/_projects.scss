@@ -25,18 +25,51 @@
         padding: 12px 0;
     }
 
+    // .project-title{
+    //     margin-top: 30px;
+    // }
+
     .project-time{
         color: $gray;
         font-size: 15px;
-        margin-bottom: 4px;
+        margin-bottom: -30px;
         column-gap: 4px;
     }
 
+    .project-header{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        column-gap: 20px;
+        font-size:18px;
+        .project-title{
+            font-weight: 700;
+        }
+    }
+
     .project-logo{
+        gap: 10px;
         width: 30px;
         height: 30px;
         border-radius: 100%;
         border: 2px solid $white;
+    }
+
+    .project-subtitle{
+        margin-left: 12px;
+        font-weight: 600;
+    }
+
+    .link-details{
+        // margin-top: 10px;
+        margin-top: 10px;
+        // color: rgb(224, 224, 14);
+        font-size: 15px;
+        color: #ebb134;
+        text-decoration: underline;
+    }
+
+    .project-description{
+        margin: 12px 0 40px 0;
     }
 
 }
