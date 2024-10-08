@@ -75,8 +75,10 @@ const ProjectLinkInfo = ({item}) => {
     if (item.url) {
         return(
             <div className="link-details">
-                <FaLink size={15} />
-                <Link to={item.url} className="project-link flex-wrap" >{item.url}</Link>
+                <Link to={item.url} className="project-link flex-wrap" >
+                    <FaLink size={15} />
+                    <span className="link-spacing">{item.url}</span>
+                </Link>
             </div>
         );
     }
