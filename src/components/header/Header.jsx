@@ -20,7 +20,7 @@ const Header = () => {
                                 className="headshot"
                             />
                             <h1 className="header-name text-white">
-                                {'{'}WORK IN PROGRESS{'}'} <br />
+                                {/* {'{'}WORK IN PROGRESS{'}'} <br /> */}
                                 Adrian Marin Estrada, <br />
                                 CS student at Simon Fraser University
                             </h1>
@@ -29,7 +29,7 @@ const Header = () => {
                             I am a Computer Science student at Simon Fraser University.
                             I am passionate about software development and I am always
                             looking for opportunities to learn and grow. I am currently
-                            looking for a co-op position for the Fall 2024 term.
+                            looking for a co-op position for January 2025.
                         </p>
                     </div>
                     <div className='header-contact'>
