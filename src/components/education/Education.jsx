@@ -41,7 +41,8 @@ const EducationItem = ({item}) => {
 };
 
 const EduDateInfo = ({item}) => {
-    if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
+    // if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
+    if (item.startDate === item.endDate){
         return(
             <p className="edu-info text" >
                 {item.startDate}{" "}
