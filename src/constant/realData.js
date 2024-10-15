@@ -142,7 +142,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_7",
+      id: "proj_6",
       startDate: "July 2022",
       endDate: "August 2022",
       icon: Question_mark,
@@ -157,7 +157,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_6",
+      id: "proj_7",
       startDate: "June 2021",
       endDate: "June 2021",
       icon: Question_mark,
