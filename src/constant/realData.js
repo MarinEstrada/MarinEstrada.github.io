@@ -74,9 +74,9 @@ const DATA = {
       url: "https://marinestrada.github.io/",
       diamondColors: ["Yellow", "Blue", "Green"],
       description: [
-        "Developed this personal CV website using React, JavaScript, and SCSS.",
-        "Used Vite to maintain server while I developed it locally",
-        "Deployed the website using Github Pages",
+        "Developed this personal CV website using React, JavaScript, and SCSS leveraging reusable components to effectively showcases skills, projects, and professional experience",
+        "Utilized Vite as a development server for efficient local development, enabling fast builds and module replacement",
+        "Deployed the website using GitHub Pages for hosting, and automated the deployment process with GitHub Actions for continuous integration and delivery",
       ],
     },
     {
