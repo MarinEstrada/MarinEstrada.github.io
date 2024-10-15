@@ -136,8 +136,9 @@ const DATA = {
       url: "https://github.com/MarinEstrada/cmpt371_Divide_and_Conquer/",
       diamondColors: ["Blue", "Pink", "Orange"],
       description: [
-        "Implemented a two-player game with Java and Java Swing using TCP protocol",
-        "Used socket programming to establish client-side connections with the server",
+        "Led a team to implement a multiplayer client-server game called 'Divide and Conquer'",
+        "Implemented using Java and Java Swing, employing the TCP protocol for real-time, synchronized gameplay between users",
+        "Used socket programming to establish and manage client-server connections, ensuring reliable communication and data exchange between the players",
       ],
     },
     {
