@@ -166,9 +166,9 @@ const DATA = {
       url: "https://github.com/MarinEstrada/reactnd-project-myreads/",
       diamondColors: ["Yellow", "Green", "Blue"],
       description: [
-        "Developed a book tracking app using React and React Router",
-        "Levereged Docker for development flexibility across multiple OSs",
-        "Integrated with Node-API to access book dataset and use React's efficient state management",
+        "Built a dynamic book tracking application using React and React Router, enabling users to seamlessly navigate between different views and track their reading progress",
+        "Leveraged Docker containers to ensure consistent development environments across multiple operating systems",
+        "Integrated the app with a Node.js API to access a comprehensive book dataset, utilizing React’s efficient state management to ensure responsive user interactions",
       ],
     },
   ],
