@@ -63,7 +63,7 @@ const ProjectItem = ({ item }) => {
             <ProjectLinkInfo item={item} />
             <ul className="project-description" >
                 {item.description?.map((desc, index) => (
-                    <li key={index} >{desc}</li>
+                    <li key={index} >• {desc}</li>
                 ))}
             </ul>
 
