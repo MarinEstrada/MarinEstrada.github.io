@@ -142,6 +142,21 @@ const DATA = {
       ],
     },
     {
+      id: "proj_7",
+      startDate: "July 2022",
+      endDate: "August 2022",
+      icon: Question_mark,
+      title: "Miracle-Buddy",
+      subTitle: "Resource management app using SQL",
+      url: "https://github.com/michvong/miracle-buddy",
+      diamondColors: ["Yellow", "Pink", "Blue"],
+      description: [
+        "Designed and implemented a robust relational database schema using MySQL, ensuring efficient data organization and optimal query performance",
+        "Developed a dynamic user-friendly interface utilizing React for efficient component-based UI development, Node.js for backend integration, and Tailwind CSS for rapid styling and responsive design.",
+        "Implemented a comprehensive set of RESTful API endpoints to facilitate CRUD (Create, Read, Update, Delete) operations on the MySQL database",
+      ],
+    },
+    {
       id: "proj_6",
       startDate: "June 2021",
       endDate: "June 2021",
