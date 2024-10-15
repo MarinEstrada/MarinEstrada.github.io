@@ -113,19 +113,19 @@ const DATA = {
         "Applied statistical analysis to assess the statistical significance of our results.",
       ],
     },
-    {
-      id: "proj_4",
-      startDate: "Aug 2023",
-      endDate: "Aug 2023",
-      icon: Question_mark,
-      title: "Sentiment Analysis Project",
-      subTitle: "Exploring sentiment analysis through Python",
-      url: "https://www.kaggle.com/marinestrada/python-sentiment-analysis-project/",
-      diamondColors: ["Orange", "Green", "Yellow"],
-      description: [
-        "Explored use of NLTK's VADER as well as Hugging face's transformers library for sentiment analysis",
-      ],
-    },
+    // {
+    //   id: "proj_4",
+    //   startDate: "Aug 2023",
+    //   endDate: "Aug 2023",
+    //   icon: Question_mark,
+    //   title: "Sentiment Analysis Project",
+    //   subTitle: "Exploring sentiment analysis through Python",
+    //   url: "https://www.kaggle.com/marinestrada/python-sentiment-analysis-project/",
+    //   diamondColors: ["Orange", "Green", "Yellow"],
+    //   description: [
+    //     "Explored use of NLTK's VADER as well as Hugging face's transformers library for sentiment analysis",
+    //   ],
+    // },
     {
       id: "proj_5",
       startDate: "July 2023",
