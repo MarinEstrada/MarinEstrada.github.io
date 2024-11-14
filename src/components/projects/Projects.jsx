@@ -72,6 +72,15 @@ const ProjectItem = ({ item }) => {
 };
 
 const ProjectLinkInfo = ({item}) => {
+    // if (item.url==="Locked until January 2025") {
+    if (item.url.startsWith("Locked")) {
+        return(
+            <div className="locked-link-details">
+                    <FaLink size={15} />
+                    <span className="link-spacing">{item.url}</span>
+            </div>
+        );
+    }
     if (item.url) {
         return(
             <div className="link-details">

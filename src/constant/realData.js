@@ -66,6 +66,21 @@ const DATA = {
   projects: [
     {
       id: "proj_1",
+      startDate: "Nov 2024",
+      endDate: "Present",
+      icon: Question_mark,
+      title: "CMPT 431 Final Project",
+      subTitle: "Parallelizing a Serial Algorithm with threads and MPI",
+      url: "Locked until January 2025",
+      diamondColors: ["Yellow", "Blue", "Green"],
+      description: [
+        "Analyzed the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
+        "Parallelized the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
+        "Evaluated performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
+      ],
+    },
+    {
+      id: "proj_2",
       startDate: "Aug 2024",
       endDate: "",
       icon: Question_mark,
@@ -80,7 +95,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_2",
+      id: "proj_3",
       startDate: "Feb 2024",
       endDate: "April 2024",
       icon: Question_mark,
@@ -97,7 +112,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_3",
+      id: "proj_4",
       startDate: "Nov 2023",
       endDate: "Nov 2023",
       icon: Question_mark,
@@ -114,7 +129,7 @@ const DATA = {
       ],
     },
     // {
-    //   id: "proj_4",
+    //   id: "proj_5",
     //   startDate: "Aug 2023",
     //   endDate: "Aug 2023",
     //   icon: Question_mark,
@@ -127,7 +142,7 @@ const DATA = {
     //   ],
     // },
     {
-      id: "proj_5",
+      id: "proj_6",
       startDate: "July 2023",
       endDate: "July 2023",
       icon: Question_mark,
@@ -142,7 +157,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_6",
+      id: "proj_7",
       startDate: "July 2022",
       endDate: "August 2022",
       icon: Question_mark,
@@ -157,7 +172,7 @@ const DATA = {
       ],
     },
     {
-      id: "proj_7",
+      id: "proj_8",
       startDate: "June 2021",
       endDate: "June 2021",
       icon: Question_mark,
