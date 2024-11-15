@@ -72,11 +72,11 @@ const DATA = {
       title: "CMPT 431 Final Project",
       subTitle: "Parallelizing a Serial Algorithm with threads and MPI",
       url: "Locked until January 2025",
-      diamondColors: ["Yellow", "Blue", "Green"],
+      diamondColors: ["Pink", "Green", "Yellow"],
       description: [
-        "Analyzed the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
-        "Parallelized the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
-        "Evaluated performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
+        "Analyzing the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
+        "Parallelizing the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
+        "Evaluating performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
       ],
     },
     {
@@ -125,7 +125,7 @@ const DATA = {
         `Utilised "spotipy" library to access Spotify's API, extracting song Data based on artist and track names`,
         "Processed Data for sentiment Analysis using NLTK's VADER and various machine learning models",
         "Uncovered trends in rap music's wpm, lexical density, unique wpm, and lexical diversity over time",
-        "Applied statistical analysis to assess the statistical significance of our results.",
+        "Applied statistical analysis to assess the statistical significance of our results",
       ],
     },
     // {
