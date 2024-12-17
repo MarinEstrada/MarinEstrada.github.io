@@ -16,10 +16,9 @@ const HomeScreen = () => {
             <Header />
             <Experience />
             <Projects />
-            {/* <Education /> */}
             <Skill />
+            <Education />
             <CertificateAward />
-            {/* <Education /> */}
             <Courses />
             <Hobbies />
             <Citations />

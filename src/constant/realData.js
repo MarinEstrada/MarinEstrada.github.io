@@ -197,6 +197,7 @@ const DATA = {
       degree: "Bachelor of Science",
       startDate: "Sept 2021",
       endDate: "Dec 2024",
+      convocationDate: "June 2025",
     },
     {
       id: "edu_d2",
@@ -206,6 +207,7 @@ const DATA = {
       degree: "Bachelor of Arts",
       startDate: "2013",
       endDate: "2019",
+      convocationDate: "",
     },
     {
       id: "edu_d3",
@@ -215,6 +217,7 @@ const DATA = {
       degree: "Bachelor of Arts",
       startDate: "2013",
       endDate: "2019",
+      convocationDate: "",
     },
   ],
   courseExperiences: [
