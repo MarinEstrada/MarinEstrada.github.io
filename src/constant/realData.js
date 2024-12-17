@@ -66,32 +66,32 @@ const DATA = {
   projects: [
     {
       id: "proj_1",
-      startDate: "Nov 2024",
-      endDate: "Present",
-      icon: Question_mark,
-      title: "CMPT 431 Final Project",
-      subTitle: "Parallelizing a Serial Algorithm with threads and MPI",
-      url: "Locked until January 2025",
-      diamondColors: ["Pink", "Green", "Yellow"],
-      description: [
-        "Analyzing the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
-        "Parallelizing the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
-        "Evaluating performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
-      ],
-    },
-    {
-      id: "proj_2",
       startDate: "Aug 2024",
       endDate: "",
       icon: Question_mark,
       title: "Personal CV Website",
       subTitle: "React, JavaScript, SCSS",
-      url: "https://marinestrada.github.io/",
+      url: "https://github.com/MarinEstrada/MarinEstrada.github.io",
       diamondColors: ["Yellow", "Blue", "Green"],
       description: [
         "Developed this personal CV website using React, JavaScript, and SCSS leveraging reusable components to effectively showcases skills, projects, and professional experience",
         "Utilized Vite as a development server for efficient local development, enabling fast builds and module replacement",
         "Deployed the website using GitHub Pages for hosting, and automated the deployment process with GitHub Actions for continuous integration and delivery",
+      ],
+    },
+    {
+      id: "proj_2",
+      startDate: "Nov 2024",
+      endDate: "Dec 2024",
+      icon: Question_mark,
+      title: "CMPT 431 Final Project",
+      subTitle: "Parallelizing a Serial Algorithm with threads and MPI",
+      url: "https://github.com/MarinEstrada/CMPT_431_Project",
+      diamondColors: ["Pink", "Green", "Yellow"],
+      description: [
+        "Analyzing the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
+        "Parallelizing the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
+        "Evaluating performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
       ],
     },
     {
