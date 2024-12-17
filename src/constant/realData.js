@@ -89,9 +89,10 @@ const DATA = {
       url: "https://github.com/MarinEstrada/CMPT_431_Project",
       diamondColors: ["Pink", "Green", "Yellow"],
       description: [
-        "Analyzing the Knapsack Problem in Dynamic Programming, focusing on item relationships over time",
-        "Parallelizing the algorithm with MPI and threads, distributing workloads across processors for enhanced performance",
-        "Evaluating performance by comparing speedup and scalability across serial, MPI, and threaded versions of the algorithm",
+        "Parallelized the Knapsack problem with MPI and threads using C++ on WSL and Ubuntu distributions",
+        "Used granularity to maximize throughput while balancing overhead communication costs  as threads shared division of labour in thread implementation",
+        "Divided calculations for sub-problems between processes and used MPI_Allgatherv to synchronize communication between processes in preparation for analyzing next item to put in knapsack during MPI implementation",
+        "Evaluated performance by comparing speedup and scalability across serial,  MPI,and threaded implementations on a Linux cluster: the Slurm Workload Manager",
       ],
     },
     {
