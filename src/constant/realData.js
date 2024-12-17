@@ -105,11 +105,11 @@ const DATA = {
       url: "",
       diamondColors: ["Green", "Orange", "Pink"],
       description: [
-        "Developed an embedded system that monitors and changes environment for ideal plant health",
+        "Developed on  Linux Debian distribution to cross-compile C code as well as debug on a BeagleBone-Green running an ARM-Linux architecture to monitor plant health",
         "Used C programming language to develop the system to track sensor data",
-        "Calibrated sensors to monitor soil moisture, ambient termperature, and light levels",
+        "Calibrated sensors to accurately read soil moisture, ambient temperature, and light levels using PWM to monitor our plant and provide shade using an automated umbrella powered by a motor (also through PWM)",
+        "Used PRU to visually indicate plant status on a neopixel light strip, as well as UDP to communicate plant status on a website we developed using Node.js",
         "Attached motors to water the plan and provide shade when necessary",
-        "Set up a web application to monitor data using UDP protocol",
       ],
     },
     {
