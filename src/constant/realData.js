@@ -122,11 +122,11 @@ const DATA = {
       url: "https://github.com/MarinEstrada/rap_music_analysis/",
       diamondColors: ["Pink", "Yellow", "Blue"],
       description: [
-        "Analyzed the complexity of rap music lyrics over time",
-        `Utilised "spotipy" library to access Spotify's API, extracting song Data based on artist and track names`,
+        "Built ETL Pipelines to clean, analyze, and visualize large amounts of raw data using Python (pandas, NumPy) and SQL to identify trends in rap music over time",
+        `Suplimented data using Spotify's API, extracting song Data based on artist and track names`,
         "Processed Data for sentiment Analysis using NLTK's VADER and various machine learning models",
         "Uncovered trends in rap music's wpm, lexical density, unique wpm, and lexical diversity over time",
-        "Applied statistical analysis to assess the statistical significance of our results",
+        "Extracted insights from data using statistical analysis to support claims of rap music becoming simplistic over time",
       ],
     },
     // {
