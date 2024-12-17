@@ -84,9 +84,9 @@ const DATA = {
       startDate: "Nov 2024",
       endDate: "Dec 2024",
       icon: Question_mark,
-      title: "CMPT 431 Final Project",
+      title: "Concurrent Knapsack Problem",
       subTitle: "Parallelizing a Serial Algorithm with threads and MPI",
-      url: "https://github.com/MarinEstrada/CMPT_431_Project",
+      url: "https://github.com/MarinEstrada/Concurrent-Knapsack-Problem",
       diamondColors: ["Pink", "Green", "Yellow"],
       description: [
         "Parallelized the Knapsack problem with MPI and threads using C++ on WSL and Ubuntu distributions",
