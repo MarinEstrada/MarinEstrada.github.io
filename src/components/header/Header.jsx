@@ -28,9 +28,9 @@ const Header = () => {
                         <p className='header-text text text-white'>
                             I am a Computer Science student at Simon Fraser University
                             set to graduate in June of 2025. <br />
-                            I am passionate about software development, scalability, and
+                            I am passionate about automation, software development, scalability, and
                             workflow efficiency. I am always looking for opportunities to
-                            learn and grow, and am currently searching for a co-op position
+                            learn and grow, and am currently searching for an internship position
                             starting January 2025. <br />
                             Don't hesitate to reach out if you have
                             any questions or opportunities!

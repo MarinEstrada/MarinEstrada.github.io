@@ -79,8 +79,8 @@ const DATA = {
       diamondColors: ["Yellow", "Blue", "Green"],
       description: [
         "Developed this personal CV website using React, JavaScript, and SCSS leveraging reusable components to effectively showcases skills, projects, and professional experience",
-        "Utilized Vite as a development server for efficient local development, enabling fast builds and module replacement",
-        "Deployed the website using GitHub Pages for hosting, and automated the deployment process with GitHub Actions for continuous integration and delivery",
+        "Utilized Vite as a development server for efficient local development, enabling continuous builds and module replacement",
+        "Automated the deployment of the website onto GitHub Pages using GitHub Actions for continuous integration and delivery",
       ],
     },
     {
@@ -119,7 +119,7 @@ const DATA = {
     {
       id: "proj_4",
       startDate: "Nov 2023",
-      endDate: "Nov 2023",
+      endDate: "Dec 2023",
       icon: Question_mark,
       title: "Rap Music Analysis",
       subTitle: "Examining claims that rap music has become more simplistic",
