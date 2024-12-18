@@ -54,6 +54,7 @@ import Headshot from "./images/headshot.jpg";
 import French from "./images/french.png";
 import Linguistics from "./images/linguistics.png";
 import ComputerScience from "./images/computer-science.png";
+import Cplusplus from "./images/c_plus_plus.png";
 
 export {
   AvatarPNG,
@@ -112,4 +113,5 @@ export {
   French,
   Linguistics,
   ComputerScience,
+  Cplusplus,
 };

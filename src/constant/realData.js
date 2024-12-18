@@ -41,7 +41,8 @@ import {
   JS_icon,
   French,
   Linguistics,
-  ComputerScience
+  ComputerScience,
+  Cplusplus
 } from "../assets/image";
 
 const DATA = {
@@ -382,9 +383,10 @@ const DATA = {
     },
     {
       id: "skill_l2",
-      icon: Letter_c,
-      name: "C",
+      icon: Cplusplus,
+      name: "C/C++",
       description: "C99, C11, C17",
+      description2: "C++11, C++14, C++17",
     },
     {
       id: "skill_l3",

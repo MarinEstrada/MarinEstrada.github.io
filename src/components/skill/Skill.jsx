@@ -24,6 +24,9 @@ const Skill = () => {
 export default Skill;
 
 const SkillItem = ({item}) => {
+    let extra_description;
+    if (item.description2) 
+        extra_description = <p className="skill-description text">{item.description2}</p>;
     return(
         <div className="skill-item text-center" key={item.id} >
             <div className="skill-icon" >
@@ -32,6 +35,7 @@ const SkillItem = ({item}) => {
             <div className="skill-info">
                 <h3 className="skill-name">{item.name}</h3>
                 <p className="skill-description text" >{item.description}</p>
+                {extra_description}
             </div>
         </div>
     );
@@ -43,5 +47,6 @@ SkillItem.propTypes = {
         icon: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
+        description2: PropTypes.string,
     }),
 };
