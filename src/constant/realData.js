@@ -40,6 +40,7 @@ import {
   Udemy,
   JS_icon,
   French,
+  Linguistics,
 } from "../assets/image";
 
 const DATA = {
@@ -202,7 +203,7 @@ const DATA = {
     },
     {
       id: "edu_d2",
-      icon: DiamondLgPink,
+      icon: Linguistics,
       course: "Applied Linguistics",
       institution: "University of Saskatchewan",
       degree: "Bachelor of Arts",
