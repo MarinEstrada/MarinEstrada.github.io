@@ -39,6 +39,7 @@ import {
   Treadmill,
   Udemy,
   JS_icon,
+  French,
 } from "../assets/image";
 
 const DATA = {
@@ -211,7 +212,7 @@ const DATA = {
     },
     {
       id: "edu_d3",
-      icon: DiamondLgYellow,
+      icon: French,
       course: "French",
       institution: "University of Saskatchewan",
       degree: "Bachelor of Arts",
