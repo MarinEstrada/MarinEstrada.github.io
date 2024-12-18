@@ -9,7 +9,6 @@ const Education = () => {
             <div className='container'>
                 <div className='education-content dotted-border-left'>
                     <Title titleText={"Education"} />
-                    {/* <div className='education-list grid'> */}
                     <div className='edu-list grid'>
                         {
                             DATA.educationalExperiences?.map((item) => (
@@ -27,12 +26,22 @@ const Education = () => {
 export default Education;
 
 const EducationItem = ({item}) => {
+    let degree_type;
+    switch (item.degree) {
+        case "Bachelor of Arts":
+            degree_type = "BA";
+            break;
+        case "Bachelor of Science":
+            degree_type = "BSc";
+            break;
+    }
+
     return(
         // <div className='education-item' key={item.id}>
         <div className='edu-item' key={item.id}>
             <div className='edu-title flex items-center'>
                 <img src={item.icon} className='edu-icon' alt={item.course} />
-                <h3 className='edu-course'>{item.course}</h3>
+                <h3 className='edu-course'>{degree_type} in {item.course}</h3>
             </div>
             <p className='edu-info text'>{item.institution}</p>
             <EduDateInfo item={item} />
