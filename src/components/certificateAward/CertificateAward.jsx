@@ -28,12 +28,14 @@ const CertificateAwardItem = ({item}) => {
             <div className="cert-icon" >
                 <img src={item.icon} alt="" />
             </div>
-            <div className="cert-info grid" >
+            {/* <div className="cert-info grid" > */}
+            <div className="cert-info" >
                 <div className="cert-info-l" >
                     <p className="cert-provider">{item.provider}</p>
                     <h3 className="cert-course">{item.course}</h3>
+                    <CertDateInfo item={item} />
                 </div>
-                <CertDateInfo item={item} />
+                {/* <CertDateInfo item={item} /> */}
             </div>
         </div>
     )
