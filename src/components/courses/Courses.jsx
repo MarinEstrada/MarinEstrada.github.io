@@ -39,21 +39,20 @@ const CourseItem = ({item}) => {
 };
 
 const CourseDateInfo = ({item}) => {
-    // if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
     if (item.startDate === item.endDate){
         return(
-            <p className="course-info text" >
+            <p className="course-date-info text" >
                 {item.startDate}{" "}
-                ({item.degree && `${item.degree}`})
+                ({item.courseType && `${item.courseType}`})
             </p>
         );
     }
 
     return(
-        <p className="course-info text">
+        <p className="course-date-info text">
             {item.startDate} - {item.endDate ||
             "Present"}{" "}
-            ({item.degree && `${item.degree}`})
+            ({item.courseType && `${item.courseType}`})
         </p>
     );
 };
@@ -66,7 +65,7 @@ CourseItem.PropTypes = {
         institution: PropTypes.string,
         startDate: PropTypes.string.isRequired,
         endDate: PropTypes.string,
-        degree: PropTypes.string,
+        courseType: PropTypes.string,
     })
 };
 
