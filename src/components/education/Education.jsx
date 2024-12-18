@@ -35,16 +35,23 @@ const EducationItem = ({item}) => {
             degree_type = "BSc";
             break;
     }
+    let minor;
+    if (item.minor)
+        minor = <p className='edu-minor text'>Minor in {item.minor}</p>;
 
     return(
-        // <div className='education-item' key={item.id}>
         <div className='edu-item' key={item.id}>
-            <div className='edu-title flex items-center'>
+                <div className='edu-title items-center'>
+                    <h3 className='edu-course'>{degree_type} in {item.course}</h3>
+                    {minor}
+                </div>
+            <div className='edu-details flex items-start'>
                 <img src={item.icon} className='edu-icon' alt={item.course} />
-                <h3 className='edu-course'>{degree_type} in {item.course}</h3>
+                <div>
+                    <p className='edu-info text'>{item.institution}</p>
+                    <EduDateInfo item={item} />
+                </div>
             </div>
-            <p className='edu-info text'>{item.institution}</p>
-            <EduDateInfo item={item} />
         </div>
     );
 };
@@ -54,7 +61,7 @@ const EduDateInfo = ({item}) => {
     let date_info =  <p className="edu-info text">
             {item.startDate} - {item.endDate ||
             "Present"}{" "}
-            ({item.degree && `${item.degree}`})
+            {/* ({item.degree && `${item.degree}`}) */}
         </p>;
 
     let convo_date;
@@ -82,6 +89,7 @@ EducationItem.PropTypes = {
         endDate: PropTypes.string,
         convocationDate: PropTypes.string,
         degree: PropTypes.string,
+        minor: PropTypes.string,
     })
 };
 

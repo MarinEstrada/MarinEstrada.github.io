@@ -5,7 +5,7 @@
     }
 
     .edu-icon{
-        width: 20px;
+        width: 80px;
     }
 
     // .education-list{
@@ -33,6 +33,11 @@
         @media(max-width: 576px){
             padding: 10px 0;
         }
+    }
+
+    .edu-minor{
+        font-size: 12px;
+        color: $gray;
     }
 
     .edu-course{

@@ -208,6 +208,7 @@ const DATA = {
       course: "Applied Linguistics",
       institution: "University of Saskatchewan",
       degree: "Bachelor of Arts",
+      minor: "Computer Science",
       startDate: "2013",
       endDate: "2019",
       convocationDate: "",
