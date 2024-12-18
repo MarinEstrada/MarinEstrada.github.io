@@ -41,6 +41,7 @@ import {
   JS_icon,
   French,
   Linguistics,
+  ComputerScience
 } from "../assets/image";
 
 const DATA = {
@@ -193,8 +194,8 @@ const DATA = {
   educationalExperiences: [
     {
       id: "edu_d1",
-      icon: DiamondLgYellow,
-      course: "Computing Science",
+      icon: ComputerScience,
+      course: "Computer Science",
       institution: "Simon Fraser University",
       degree: "Bachelor of Science",
       startDate: "Sept 2021",

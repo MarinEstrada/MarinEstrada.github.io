@@ -33,6 +33,8 @@ const Citations = () => {
         title="languages icons">Languages icons created by Paul J. - Flaticon</a>
         <a href="https://www.flaticon.com/free-icons/extensible-markup-language"
         title="extensible markup language icons">Extensible markup language icons created by wanicon - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/computer-science"
+        title="computer science icons">Computer science icons created by Freepik - Flaticon</a>
     </div>
   );
 };
