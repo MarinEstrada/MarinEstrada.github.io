@@ -1,15 +1,14 @@
-.education-sc{
-    .edu-title{
+.course-sc{
+    .course-title{
         margin-bottom: 6px;
         gap: 10px;
     }
 
-    .edu-icon{
-        width: 80px;
+    .course-icon{
+        width: 20px;
     }
 
-    // .education-list{
-    .edu-list{
+    .course-list{
         margin-left: 24px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -28,31 +27,19 @@
     }
 
     // .education-item{
-    .edu-item{
+    .course-item{
         padding: 12px;
         @media(max-width: 576px){
             padding: 10px 0;
         }
     }
 
-    .edu-minor{
-        font-size: 12px;
-        color: $gray;
-    }
-
-    .edu-course{
+    .course-course{
         font-weight: 600;
         font-size: 18px;
     }
 
-    .edu-info{
+    .course-info{
         margin-left: 30px;
     }
-
-    .edu-convocation-date{
-        margin-left: 30px;
-        color: $gray;
-        font-size: 12px;
-    }
-
 }

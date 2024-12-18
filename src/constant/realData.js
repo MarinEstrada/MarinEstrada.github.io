@@ -39,6 +39,9 @@ import {
   Treadmill,
   Udemy,
   JS_icon,
+  French,
+  Linguistics,
+  ComputerScience
 } from "../assets/image";
 
 const DATA = {
@@ -191,21 +194,45 @@ const DATA = {
   educationalExperiences: [
     {
       id: "edu_d1",
-      icon: DiamondLgYellow,
-      course: "Computing Science",
+      icon: ComputerScience,
+      course: "Computer Science",
       institution: "Simon Fraser University",
       degree: "Bachelor of Science",
-      startDate: "2021",
-      endDate: "",
+      startDate: "Sept 2021",
+      endDate: "Dec 2024",
+      convocationDate: "June 2025",
     },
+    {
+      id: "edu_d2",
+      icon: Linguistics,
+      course: "Applied Linguistics",
+      institution: "University of Saskatchewan",
+      degree: "Bachelor of Arts",
+      minor: "Computer Science",
+      startDate: "2013",
+      endDate: "2019",
+      convocationDate: "",
+    },
+    {
+      id: "edu_d3",
+      icon: French,
+      course: "French",
+      institution: "University of Saskatchewan",
+      degree: "Bachelor of Arts",
+      startDate: "2013",
+      endDate: "2019",
+      convocationDate: "",
+    },
+  ],
+  courseExperiences: [
     {
       id: "edu_1",
       icon: DiamondLgBlue,
       course: "Distributed Systems",
       institution: "Simon Fraser University",
       degree: "Upper Division Course",
-      startDate: "September 2024",
-      endDate: "",
+      startDate: "Fall 2024",
+      endDate: "Fall 2024",
     },
     {
       id: "edu_2",
@@ -213,8 +240,8 @@ const DATA = {
       course: "Database Systems II",
       institution: "Simon Fraser University",
       degree: "Upper Division Course",
-      startDate: "September 2024",
-      endDate: "",
+      startDate: "Fall 2024",
+      endDate: "Fall 2024",
     },
     {
       id: "edu_3",
@@ -314,24 +341,6 @@ const DATA = {
       degree: "Upper Division Course",
       startDate: "Summer 2022",
       endDate: "Summer 2022",
-    },
-    {
-      id: "edu_d2",
-      icon: DiamondLgPink,
-      course: "Applied Linguistics",
-      institution: "University of Saskatchewan",
-      degree: "Bachelor of Arts",
-      startDate: "2013",
-      endDate: "2019",
-    },
-    {
-      id: "edu_d3",
-      icon: DiamondLgYellow,
-      course: "French",
-      institution: "University of Saskatchewan",
-      degree: "Bachelor of Arts",
-      startDate: "2013",
-      endDate: "2019",
     },
   ],
   skills: [

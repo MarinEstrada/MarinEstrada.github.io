@@ -8,6 +8,7 @@ import Hobbies from "../../components/hobbies/Hobbies";
 import BackgroundEffect from "../../components/background_effect/BackgroundEffect";
 import Citations from "../../components/citations/Citations";
 import Projects from "../../components/projects/Projects";
+import Courses from "../../components/courses/Courses";
 
 const HomeScreen = () => {
     return (
@@ -15,10 +16,10 @@ const HomeScreen = () => {
             <Header />
             <Experience />
             <Projects />
-            {/* <Education /> */}
             <Skill />
-            <CertificateAward />
             <Education />
+            <CertificateAward />
+            <Courses />
             <Hobbies />
             <Citations />
             <Cursor />

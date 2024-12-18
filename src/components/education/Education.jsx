@@ -9,7 +9,6 @@ const Education = () => {
             <div className='container'>
                 <div className='education-content dotted-border-left'>
                     <Title titleText={"Education"} />
-                    {/* <div className='education-list grid'> */}
                     <div className='edu-list grid'>
                         {
                             DATA.educationalExperiences?.map((item) => (
@@ -27,36 +26,56 @@ const Education = () => {
 export default Education;
 
 const EducationItem = ({item}) => {
+    let degree_type;
+    switch (item.degree) {
+        case "Bachelor of Arts":
+            degree_type = "BA";
+            break;
+        case "Bachelor of Science":
+            degree_type = "BSc";
+            break;
+    }
+    let minor;
+    if (item.minor)
+        minor = <p className='edu-minor text'>Minor in {item.minor}</p>;
+
     return(
-        // <div className='education-item' key={item.id}>
         <div className='edu-item' key={item.id}>
-            <div className='edu-title flex items-center'>
+                <div className='edu-title items-center'>
+                    <h3 className='edu-course'>{degree_type} in {item.course}</h3>
+                    {minor}
+                </div>
+            <div className='edu-details flex items-start'>
                 <img src={item.icon} className='edu-icon' alt={item.course} />
-                <h3 className='edu-course'>{item.course}</h3>
+                <div>
+                    <p className='edu-info text'>{item.institution}</p>
+                    <EduDateInfo item={item} />
+                </div>
             </div>
-            <p className='edu-info text'>{item.institution}</p>
-            <EduDateInfo item={item} />
         </div>
     );
 };
 
 const EduDateInfo = ({item}) => {
-    // if (item.degree === "Upper Division Course"|| item.startDate === item.endDate){
-    if (item.startDate === item.endDate){
-        return(
-            <p className="edu-info text" >
-                {item.startDate}{" "}
-                ({item.degree && `${item.degree}`})
-            </p>
-        );
+
+    let date_info =  <p className="edu-info text">
+            {item.startDate} - {item.endDate ||
+            "Present"}{" "}
+            {/* ({item.degree && `${item.degree}`}) */}
+        </p>;
+
+    let convo_date;
+    if (item.convocationDate) {
+        convo_date = <p className="edu-convocation-date text">
+                Convocation: {item.convocationDate}
+            </p>;
     }
 
     return(
-        <p className="edu-info text">
-            {item.startDate} - {item.endDate ||
-            "Present"}{" "}
-            ({item.degree && `${item.degree}`})
-        </p>
+        <div>
+            {date_info}
+            {convo_date}
+        </div>
     );
 };
 
@@ -68,7 +87,9 @@ EducationItem.PropTypes = {
         institution: PropTypes.string,
         startDate: PropTypes.string.isRequired,
         endDate: PropTypes.string,
+        convocationDate: PropTypes.string,
         degree: PropTypes.string,
+        minor: PropTypes.string,
     })
 };
 

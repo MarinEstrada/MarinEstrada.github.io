@@ -51,6 +51,9 @@ import Haskell_icon from "./images/haskell.png";
 import Scala_icon from "./images/scala.png";
 import Question_mark from "./images/question-mark.png";
 import Headshot from "./images/headshot.jpg";
+import French from "./images/french.png";
+import Linguistics from "./images/linguistics.png";
+import ComputerScience from "./images/computer-science.png";
 
 export {
   AvatarPNG,
@@ -106,4 +109,7 @@ export {
   Scala_icon,
   Question_mark,
   Headshot,
+  French,
+  Linguistics,
+  ComputerScience,
 };
