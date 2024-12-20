@@ -26,14 +26,13 @@ const Header = () => {
                             </h1>
                         </div>
                         <p className='header-text text text-white'>
-                            I am a Computer Science student at Simon Fraser University
-                            set to graduate in June of 2025. <br />
-                            I am passionate about automation, software development, scalability, and
-                            workflow efficiency. I am always looking for opportunities to
-                            learn and grow, and am currently searching for an internship position
-                            starting January 2025. <br />
-                            Don't hesitate to reach out if you have
-                            any questions or opportunities!
+                            I am passionate about automation, software development, scalability,
+                            and workflow efficiency. Having successfully completed all the requirements
+                            for my Computer Science degree at Simon Fraser University, I am on track to
+                            graduate in June 2025. I am eager to continue learning and growing through
+                            hands-on experience and am currently seeking internship or permanent positions
+                            starting in January 2025. <br />
+                            Feel free to reach out if you have any questions or exciting opportunities to share!
                         </p>
                     </div>
                     <div className='header-contact'>
