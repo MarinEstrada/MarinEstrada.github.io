@@ -1,12 +1,12 @@
 # CV Website for myself created using React + Vite
+By [Adrian Marin Estrada]
 
-using this to provide context of my computational skills.
-for reference I used a video by GeekProbin on youtube
-    https://www.youtube.com/watch?v=dekqcaDplUQ
+My online portfolio with all my relevant projects skills to provide clear context of my computational abilities. To view the deployed site, please visit [https://marinestrada.github.io/][deployed_site]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For reference I used a [video by GeekProbin on youtube][reference_vite] in order to create my site, and expanded upon it based off my personal needs.
 
-Currently, two official plugins are available:
+[//]: # (Reference links:)
+[adrian marin estrada]: <https://marinestrada.github.io/>
+[reference_vite]: <https://www.youtube.com/watch?v=dekqcaDplUQ>
+[deployed_site]: <https://marinestrada.github.io/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
