@@ -94,7 +94,7 @@ const DATA = {
       diamondColors: ["Pink", "Green", "Yellow"],
       description: [
         "Parallelized the Knapsack problem with MPI and threads using C++ on WSL and Ubuntu distributions",
-        "Used granularity to maximize throughput while balancing overhead communication costs  as threads shared division of labour in thread implementation",
+        "Increased throughput by 2.85 times using MPI, and by 4.78 times using threads.",
         "Divided calculations for sub-problems between processes and used MPI_Allgatherv to synchronize communication between processes in preparation for analyzing next item to put in knapsack during MPI implementation",
         "Evaluated performance by comparing speedup and scalability across serial,  MPI,and threaded implementations on a Linux cluster: the Slurm Workload Manager",
       ],
