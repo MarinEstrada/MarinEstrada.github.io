@@ -22,16 +22,15 @@ const Header = () => {
                             <h1 className="header-name text-white">
                                 {/* {'{'}WORK IN PROGRESS{'}'} <br /> */}
                                 Adrian Marin Estrada, <br />
-                                CS student at Simon Fraser University
+                                Software Developer & Owner of Marin Estrada Consulting
                             </h1>
                         </div>
                         <p className='header-text text text-white'>
-                            I am passionate about automation, software development, scalability,
-                            and workflow efficiency. Having successfully completed all the requirements
-                            for my Computer Science degree at Simon Fraser University, I am on track to
-                            graduate in June 2025. I am eager to continue learning and growing through
-                            hands-on experience and am currently seeking internship or permanent positions
-                            starting in January 2025. <br />
+                            I'm passionate about automation, software development, scalability, and workflow
+                            efficiency. With a B.Sc. in Computer Science from Simon Fraser University,
+                            I now run a consulting business where I’ve partnered with high-profile clients
+                            such as Meta and the Government of British Columbia. I’m always excited to take on
+                            new challenges, build impactful solutions, and continue growing through hands-on work. <br />
                             Feel free to reach out if you have any questions or exciting opportunities to share!
                         </p>
                     </div>
@@ -39,12 +38,12 @@ const Header = () => {
                         <ul className='contact-info-list grid text-white'>
                             <li className='grid items-start info-item'>
                                 <span className='info-item-icon'>
-                                    <a href="mailto:ama269@sfu.ca">
+                                    <a href="mailto:admaes029@gmail.com">
                                         <FaEnvelope size={13} />
                                     </a>
                                 </span>
                                 <span className='info-item-text'>
-                                    Email: <span className='text'>ama269@sfu.ca</span>
+                                    Email: <span className='text'>admaes029@gmail.com</span>
                                 </span>
                             </li>
                             <li className='grid items-start info-item'>
@@ -60,7 +59,7 @@ const Header = () => {
                                     <FaLocationDot size={14} />
                                 </span>
                                 <span className='info-item-text'>
-                                    Address: <span className='text'>Burnaby, BC, Canada</span>
+                                    Address: <span className='text'>Surrey, BC, Canada</span>
                                 </span>
                             </li>
                             <li className='grid items-start info-item'>
@@ -85,7 +84,7 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className='social-item'>
-                                <a href="mailto:ama269@sfu.ca">
+                                <a href="mailto:admaes029@gmail.com">
                                     <img src={Email} />
                                     {/* <span className='tooltip text'>Email</span> */}
                                 </a>
