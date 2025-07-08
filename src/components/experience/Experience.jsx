@@ -59,17 +59,34 @@ const ExperienceItem = ({item}) => {
                 <p className="company-info text" >{item.company.info}</p>
             </div>
             <p className="exp-description text" >{item.description}</p>
-            <p className="exp-links">
+            <ExperienceLinkInfo item={item} />
+            {/* <p className="exp-links">
                 {item.links.map((link) => (
                     <a key={link.label} href={link.url} className="text-mauve" >
                         <FaLink />
                         <span>{link.label}</span>
                     </a>
                 ))}
-            </p>
+            </p> */}
         </div>
     );
 };
+
+const ExperienceLinkInfo = ({item}) => {
+    if(item.links) {
+        return(
+            <div className="exp-links">
+                {item.links.map((link) => (
+                    <a key={link.label} href={link.url} className="text-mauve" >
+                        <FaLink />
+                        <span>{link.label}</span>
+                    </a>
+                ))}
+            </div>
+        )
+    }
+
+}
 
 ExperienceItem.PropTypes = {
     item: PropTypes.shape({
