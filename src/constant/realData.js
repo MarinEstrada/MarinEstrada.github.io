@@ -48,11 +48,49 @@ import {
 const DATA = {
   professionalExperiences: [
     {
+      id: "prof_exp_3",
+      startDate: "June 2025",
+      endDate: "",
+      position: "Commisioned Software Developer",
+      diamondColors: ["Yellow", "Green", "Blue"],
+      company: {
+        logo: Question_mark,
+        name: "Marin Estrada Consulting",
+        info: "Consulted for the Government of British Columbia codifying a hydrologic protocol that determines watershed characteristics from a open-source digital elevation model.",
+      },
+      description: "I converted an existing workflow using WhiteboxTools data processing algorithms to streamline hydrologic assessments for water resource professionals. This included testing the methods by sending upload requests to AWS S3 buckets for validation of the spatial data layers generated.",
+      links: [
+        {
+          label: "Government of British Columbia",
+          url: "https://www.gov.bc.ca/"
+        }
+      ],
+    },
+    {
+      id: "prof_exp_2",
+      startDate: "Feb 2025",
+      endDate: "",
+      position: "Computational Linguist on Assignment at Meta via TEKsystems",
+      diamondColors: ["Orange", "Blue", "Pink"],
+      company: {
+        logo: Question_mark,
+        name: "Marin Estrada Consulting",
+        info: "Working with Meta to improve their LLMs (large language models) ",
+      },
+      description: "While working with Meta, I contributed to the evaluation and improvement of the LLaMA large language model by designing robust evaluation criteria and crafting targeted prompts to assess model behavior. I integrated an internal notebook-based tool—similar to Jupyter—into our workflow, allowing for systematic testing and analysis of model outputs. By querying an internal SQL database, I retrieved prompt evaluation data and iteratively refined my prompts based on performance trends and areas needing enhancement. Additionally, I reviewed and annotated user data in accordance with stakeholder-provided guidelines to improve the model’s alignment and accuracy. My work culminated in comprehensive reports outlining model weaknesses and delivering actionable recommendations focused on key linguistic and behavioral attributes for targeted training improvements.",
+      links: [
+        {
+          label: "Meta's LLaMA ",
+          url: "https://www.llama.com/"
+        }
+        ],
+    },
+    {
       id: "prof_exp_1",
       startDate: "May 2024",
       endDate: "",
       position: "A.I. Prompt Engineer & Training Specialist",
-      diamondColors: ["Yellow", "Green", "Blue"],
+      diamondColors: ["Pink", "Orange", "Yellow"],
       company: {
         logo: Question_mark,
         name: "DataAnnotation",
