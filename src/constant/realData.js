@@ -58,7 +58,7 @@ const DATA = {
         name: "Marin Estrada Consulting",
         info: "Consulted for the Government of British Columbia codifying a hydrologic protocol that determines watershed characteristics from a open-source digital elevation model.",
       },
-      description: "I converted an existing workflow using WhiteboxTools data processing algorithms to streamline hydrologic assessments for water resource professionals. This included testing the methods by sending upload requests to AWS S3 buckets for validation of the spatial data layers generated.",
+      description: "I converted an existing workflow using WhiteboxTools data processing algorithms to streamline hydrologic assessments for water resource professionals. This included testing the methods by sending upload requests to AWS S3 buckets for validation of the spatial data layers generated to guarantee seamless file availability across distributed systems, supporting smooth data sharing and integration.",
       links: [
         {
           label: "Government of British Columbia",
