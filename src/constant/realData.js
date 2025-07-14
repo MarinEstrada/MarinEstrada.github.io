@@ -70,7 +70,7 @@ const DATA = {
       id: "prof_exp_2",
       startDate: "Feb 2025",
       endDate: "",
-      position: "Computational Linguist on Assignment at Meta via TEKsystems",
+      position: "Computational Linguist at Meta via TEKsystems",
       diamondColors: ["Orange", "Blue", "Pink"],
       company: {
         logo: Question_mark,
