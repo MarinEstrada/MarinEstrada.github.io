@@ -51,7 +51,7 @@ const DATA = {
       id: "prof_exp_3",
       startDate: "June 2025",
       endDate: "",
-      position: "Commisioned Software Developer",
+      position: "Consulting Software Developer for BC Government",
       diamondColors: ["Yellow", "Green", "Blue"],
       company: {
         logo: Question_mark,
