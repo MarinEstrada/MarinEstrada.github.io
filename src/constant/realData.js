@@ -70,14 +70,14 @@ const DATA = {
       id: "prof_exp_2",
       startDate: "Feb 2025",
       endDate: "",
-      position: "Computational Linguist at Meta via TEKsystems",
+      position: "AI Data Operations Specialist at Meta via TEKsystems",
       diamondColors: ["Orange", "Blue", "Pink"],
       company: {
         logo: Question_mark,
         name: "Marin Estrada Consulting",
         info: "Working with Meta to improve their LLMs (large language models) ",
       },
-      description: "While working with Meta, I contributed to the evaluation and improvement of the LLaMA large language model by designing robust evaluation criteria and crafting targeted prompts to assess model behavior. I integrated an internal notebook-based tool—similar to Jupyter—into our workflow, allowing for systematic testing and analysis of model outputs. By querying an internal SQL database, I retrieved prompt evaluation data and iteratively refined my prompts based on performance trends and areas needing enhancement. Additionally, I reviewed and annotated user data in accordance with stakeholder-provided guidelines to improve the model’s alignment and accuracy. My work culminated in comprehensive reports outlining model weaknesses and delivering actionable recommendations focused on key linguistic and behavioral attributes for targeted training improvements.",
+      description: "During my time at Meta, I advanced into a lead role where I now manage a team of annotators, providing guidance, training, and performance feedback to ensure high-quality, consistent outputs. I oversee the end-to-end annotation workflow, conduct regular audits for quality assurance, and collaborate with stakeholders to align annotation processes with evolving project objectives. Prior to stepping into this leadership position, I contributed to the evaluation and improvement of the LLaMA large language model by designing robust evaluation criteria and crafting targeted prompts to assess model behavior. I integrated an internal notebook-based tool—similar to Jupyter—into our workflow, enabling systematic testing and analysis of model outputs. By querying an internal SQL database, I retrieved prompt evaluation data and iteratively refined my prompts based on performance trends and areas needing enhancement. Additionally, I reviewed and annotated user data in accordance with stakeholder-provided guidelines to improve the model’s alignment and accuracy. My work culminated in comprehensive reports outlining model weaknesses and delivering actionable recommendations focused on key linguistic and behavioral attributes for targeted training improvements.",
       links: [
         {
           label: "Meta's LLaMA ",
