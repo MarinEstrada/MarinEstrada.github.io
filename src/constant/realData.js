@@ -70,7 +70,7 @@ const DATA = {
       id: "prof_exp_2",
       startDate: "Feb 2025",
       endDate: "",
-      position: "AI Data Operations Specialist at Meta via TEKsystems",
+      position: "Agentic AI Team Lead at Meta via TEKsystems",
       diamondColors: ["Orange", "Blue", "Pink"],
       company: {
         logo: Question_mark,
