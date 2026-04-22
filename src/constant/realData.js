@@ -122,6 +122,21 @@ const DATA = {
       ],
     },
     {
+      id: "proj_9",
+      startDate: "April 2026",
+      endDate: "April 2026",
+      icon: Question_mark,
+      title: "Pong",
+      subTitle: "Video game of Pong deployed in Github Pages",
+      url: "https://github.com/MarinEstrada/My_first_cpp_game/",
+      diamondColors: ["Blue", "Pink", "Orange"],
+      description: [
+        "Developed a fully playable Pong game in C++ implementing game mechanics from scratch including physics-based ball movement, collision detection, acceleration tuning, and AI bot behavior",
+        "Architected platform-independent code by separating game logic from platform-specific rendering layers (Win32 and Emscripten), enabling the game to run natively on Windows and in-browser via GitHub Pages",
+        "Leveraged AI (Claude) to port the codebase to WebAssembly/Emscripten and integrate custom TrueType font rendering, learning how to evaluate and adapt AI-generated code within an existing architecture",
+      ],
+    },
+    {
       id: "proj_2",
       startDate: "Nov 2024",
       endDate: "Dec 2024",
